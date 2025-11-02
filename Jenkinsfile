@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Sytrax2721/GrpAssign-SoftwareDeployment.git'
+                git branch: 'main', url: 'https://github.com/Sytrax2721/GrpAssign-SoftwareDeployment.git'
             }
         }
 
