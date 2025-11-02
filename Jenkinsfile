@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the latest code from GitHub
-                git 'https://github.com/Sytrax2721/GrpAssign-SoftwareDeployment.git'
+                git 'https://github.com/Sytrax2721/GrpAssign-SoftwareDeployment'
             }
         }
 
